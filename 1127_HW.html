@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>1127 Homework</title>
+</head>
+<link rel=stylesheet type="text/css" href="practice.css">
+<body>
+    <table border="1">
+        <caption>
+            <h2>Homework</h2></caption>
+        <tr>
+            <th colspan="4">About me-105405084</th>
+
+        </tr>
+        <tr>
+            <th rowspan="2">
+                <img src="logo face-08.png" alt="" width="200" height="200">
+                <p>personal photo</p>
+            </th>
+            <th colspan="3">
+                <p>
+                    Name: <input type="text" name="snm" placeholder="Please enter your name">
+                </p><br>
+                <p>
+                    Gender: 
+                    <input type="radio" id="male" name="gender" value="Male" >
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="Female" checked>
+                    <label for="female">Female</label>
+                    <input type="radio" id="other" name="gender" value="other">
+                    <label for="other">Other</label>
+                </p>
+            </th>
+        </tr>
+        <tr>
+            <td>
+                <label for="country">Country</label>
+                <select name="country" id="country">
+                    <option value="Taipei">Taipei</option>
+                    <option value="Taichung">Taichung</option>
+                    <option value="Tainan" selected>Tainan</option>
+                    <option value="Kaohsiung">Kaohsiung</option>
+                </select>
+            </td>
+            <td>
+                <label for="birthday">Birthday</label>
+                <input type="date" name="birthday" value="1998-05-23" min="1900-01-01" max="2030-12-31">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Hobby</td>
+            <td colspan="2">
+                <label for="Swimming">Swimming</label>
+                <input type="checkbox" id="Swimming" name="Swimming" value="Swimming">
+                <label for="Volleyball">Volleyball</label>
+                <input type="checkbox" id="Volleyball" name="Volleyball" value="Volleyball" checked>
+                <label for="Movies">Movies</label>
+                <input type="checkbox" id="Movies" name="Movies" value="Movies">
+                <label for="Games">Games</label>
+                <input type="checkbox" id="Games" name="Games" value="Games">
+                <label for="Sleeping">Sleeping</label>
+                <input type="checkbox" id="Sleeping" name="Sleeping" value="Sleeping" checked><br><br>
+            </td>
+        </tr>
+        <tr>
+            <td>Skill</td>
+            <td colspan="2">
+                <label for="illustration">illustration</label>
+                <input type="checkbox" id="illustration" name="illustration" value="illustration" checked>
+                <label for="Volleyball">Photoshop</label>
+                <input type="checkbox" id="Photoshop" name="Photoshop" value="Photoshop" checked>
+                <label for="Indesign">Indesign</label>
+                <input type="checkbox" id="Indesign" name="Indesign" value="Indesign" checked>
+                <label for="AE">AE</label>
+                <input type="checkbox" id="AE" name="AE" value="AE" checked>
+                <label for="Figma">Figma</label>
+                <input type="checkbox" id="Figma" name="Figma" value="Figma" checked><br><br>
+            </td>
+        </tr>
+        <tr>
+            <td>Say Something</td>
+            <td colspan="2">
+                <textarea id="comment" name="comment" rows="4" cols="50" placeholder="Enter the comments here"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3">
+                <input type="submit" name="newst" value="Submit">
+                <input type="submit" name="return" value="Return">
+            </td>
+        </tr> 
+
+</body>
+</html>
