@@ -27,18 +27,26 @@ File: Layout CSS
 #header{}
 
 #header #logo{margin:30px 0 0 0;}
-#header #logo h1{margin:0; padding:0; font-size:22px; text-transform:uppercase;}
+#header #logo h1{margin: 0; padding:0; font-size:22px; text-transform:uppercase; font-family: sans-serif;}
 
 
 /* Page Intro
 --------------------------------------------------------------------------------------------------------------- */
 #pageintro{padding:200px 0;}
 
-#pageintro article{display:block; max-width:75%; margin:0 auto; text-align:center;}
+#pageintro article{display:block; max-width:75%; margin-left:auto; margin-right: auto; text-align:center;}
 #pageintro article *{word-wrap:break-word;}
-#pageintro .heading{margin-bottom:20px; font-size:3rem;}
+#pageintro .heading{margin-bottom:20px; font-size:3rem; font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: bold;}
 #pageintro p:first-of-type{display:block; max-width:75%; margin:0 auto 30px;}
 #pageintro footer{margin-top:80px;}
+.heading a img{
+	width: 30%;
+	height: 15%;
+}
+.heading a img:hover{
+	transform: scale(1.2);
+}
+
 
 
 /* Click to Action
